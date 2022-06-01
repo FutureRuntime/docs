@@ -1,0 +1,15 @@
+{
+  "name": "futurer-doc",
+  "version": "1.0.0",
+  "description": "Future Runtime Team Official Docs",
+  "main": "index.js",
+  "author": "Peng Tsinv <32813194+TuringCodeOne@users.noreply.github.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.46"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  }
+}
